@@ -1,0 +1,11 @@
+# Ignore environment files containing credentials
+srcs/.env
+.env
+
+# Ignore any secret files
+*.secret
+secrets/
+
+# Ignore OS/editor artifacts
+.DS_Store
+.vscode/
